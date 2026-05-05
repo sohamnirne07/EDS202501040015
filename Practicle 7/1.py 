@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+x = ["Electrical","clothing","House"]
+y= [500,300,300]
+
+plt.pie(y,labels=x,autopct='%.2f%%')
+plt.title("Line Chart")
+plt.show()
